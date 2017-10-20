@@ -1,0 +1,81 @@
+  body {
+    background-color: aqua
+  }
+  h1{
+    color: red
+  }
+  header h1 {
+    color: purple
+  }
+  
+  img{
+    width: 600; height: auto
+  }
+  nav { color: green}
+  
+  #main {color: gray}
+  
+  .highlight {color: yellow}
+  
+  <!-- highlight inside an aside  -->
+  
+  aside .highlight p {
+    color: brown
+  }
+/*
+  a {
+    text-decoration: line-through
+  }
+*/
+/*
+  a:hover{
+    text-decoration: underline;
+    font-size: 5em;
+  }
+*/
+  p::first-letter{
+    font-size: 2em;
+    color: firebrick;
+  }
+/*  pseudo selectors have two colons ::*/
+  
+/*  ctrl forward slash '/'  */
+  h1:hover {
+    text-decoration: underline;
+  }
+  
+/*
+  first letter works on block level element only
+  a::first-letter {
+    font-size: 2em;
+    color: firebrick;
+  }
+*/
+/*  ---*/
+  a:visited {
+    text-decoration: none;
+  }
+  
+  header {
+    width: 75%;
+    margin: auto;
+  }
+  
+  article {
+    width: 50%;
+    margin: auto
+  }
+  
+  
+/* border: size style color*/
+  footer {
+    border: 1px solid red;
+/*    or*/
+    border-width: 1px;
+    border-style: solid;
+    border-color: red;
+  }
+  footer {
+    border: 1px solid red;
+    border-radius: 20px;
+  }
